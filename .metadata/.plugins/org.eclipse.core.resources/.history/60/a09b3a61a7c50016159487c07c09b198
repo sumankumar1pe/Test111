@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="registration_page.jsp">
+	
+	<lable for="f">First name:
+	<input type="text" name="Fname" id="f"">
+	</lable>
+	<br/>
+	<br/>
+	<lable for="l">Last name:</lable>
+	<input type="text" name="Lname" id="l">
+	<br/><br/>
+	<input type="button" value="submit">
+	</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="demo_form.asp">
+  <label for="m">First Name</label>
+  <input type="text" name="gender" id="m"><br>
+  <label for="female">Female</label>
+  <input type="text" name="lname" id="female"><br>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
