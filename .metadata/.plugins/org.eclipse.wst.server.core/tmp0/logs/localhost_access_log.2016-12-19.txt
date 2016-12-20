@@ -54,3 +54,5 @@
 127.0.0.1 - - [19/Dec/2016:10:59:07 +0530] "GET /LoginPageDemo/registration_page.html HTTP/1.1" 200 375
 127.0.0.1 - - [19/Dec/2016:10:59:16 +0530] "GET /LoginPageDemo/registration_page.jsp?fname=suman&lname=kumar HTTP/1.1" 200 186
 127.0.0.1 - - [19/Dec/2016:11:28:26 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [19/Dec/2016:14:50:54 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [19/Dec/2016:14:50:55 +0530] "GET /demoProject/index.html HTTP/1.1" 200 124

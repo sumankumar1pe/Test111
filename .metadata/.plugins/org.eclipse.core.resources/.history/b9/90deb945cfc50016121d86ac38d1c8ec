@@ -1,0 +1,20 @@
+package postgreSqlDemo;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+class PostgreSqlLaunch {
+	public static void main(String[] args) {
+	      Connection c = null;
+	      try {
+	         Class.forName("org.postgresql.Driver");
+	         c = DriverManager
+	            .getConnection("jdbc:postgresql://localhost:5432/testdb",
+	            "postgres", "admin");
+	      } catch (Exception e) {
+	        System.out.println(e);
+	      }
+	      System.out.println("Opened database successfully");
+	   }
+
+}
